@@ -1,3 +1,50 @@
-<p>
-  navbar works!
-</p>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" (click)="isCollapsed = !isCollapsed" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <app-chlogo></app-chlogo>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" [collapse]=isCollapsed>
+      <form class="navbar-form navbar-left">
+        <div id="navbar-search-box" class="form-group">
+          <input type="text" class="form-control" size="120" placeholder="SEARCH EVENTS">
+          <button>
+            <fa-icon [icon]="faSearch"></fa-icon>
+          </button>
+        </div>
+      </form>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">TICKETS<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">PLAN YOUR VISIT</a></li>
+        <li><a href="#">VIP MEMBERS</a></li>
+        <li><a href="#">ABOUT US</a></li>
+      </ul>
+      <hr>
+      <ul class="nav navbar-nav navbar-right">
+        <li id="logIn">
+          <a href="#">
+            LOG IN
+            <fa-icon id="userIcon" [icon]="user"></fa-icon>
+          </a>
+        </li>
+        <li class="dropdown" dropdown>
+          <a id="getConnected" href="#" dropdownToggle class="dropdown-toggle">GET CONNECTED<span class="caret"></span></a>
+          <div *dropdownMenu id="connectedAccounts" class="dropdown-menu" role="menu">
+            <a class="social"><fa-icon [icon]="instagram"></fa-icon></a>
+            <a class="social"><fa-icon [icon]="twitter"></fa-icon></a>
+            <a class="social"><fa-icon [icon]="facebook"></fa-icon></a>
+            <a class="social"><fa-icon [icon]="youtube"></fa-icon></a>
+          </div>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
