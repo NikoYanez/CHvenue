@@ -25,7 +25,9 @@
     position: absolute;
     float: right;
     right: 3rem;
-    margin-top: 4px; }
+    margin-top: 4px;
+    border: none;
+    background-color: transparent; }
 
 input.form-control {
   -webkit-border-radius: 25px;

@@ -11,12 +11,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 // Font Awesome Icons
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ChlogoComponent } from './chlogo/chlogo.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ChlogoComponent
+    ChlogoComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

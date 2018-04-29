@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald");
+#eventsTitle {
+  text-align: center;
+  font-family: Oswald, sans-serif; }
+
+#eventContainer {
+  margin-bottom: 5rem; }
+  #eventContainer .eventName {
+    background-color: white;
+    padding: 0.8rem;
+    display: flex; }
+  #eventContainer .eventDate {
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 0 0 1rem; }
+
+#eventTourDetails {
+  margin: 0.3rem 2rem; }
+  #eventTourDetails .eventArtist {
+    font-family: Oswald, sans-serif;
+    color: #f700f3;
+    font-size: 3rem; }
+  #eventTourDetails .eventTour {
+    font-family: Lato, sans-serif;
+    font-style: oblique;
+    font-size: 1.8rem; }
+
+.buyTickets {
+  background-color: #f700f3;
+  color: white;
+  margin-top: -5px;
+  padding: 1.2rem 0;
+  text-align: center; }
+  .buyTickets a {
+    color: white;
+    font-family: Oswald, sans-serif; }
+
+.eventDate #fullDateContainer {
+  float: left;
+  color: #f700f3; }
+.eventDate #dayNameContainer {
+  padding: 1rem 3.6rem 0 3rem;
+  font-family: Oswald, sans-serif;
+  color: #f700f3;
+  position: relative;
+  float: right;
+  min-width: 10.3rem;
+  max-width: 10.3rem;
+  bottom: 1.5rem;
+  border: none;
+  background-color: #3a3a3a; }
+.eventDate #fullDate {
+  padding-left: 2rem;
+  padding-top: 0.5rem; }
+
+#dayNameContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 10.3rem;
+  border-right: 15px solid #3a3a3a;
+  border-bottom: 40px solid transparent;
+  width: 0; }
+
+hr {
+  border-top: 2px solid #000; }
+
+/*# sourceMappingURL=events.component.css.map */

@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+  <h2 id="eventsTitle">UPCOMING EVENTS</h2>
+  <hr>
+
+  <div id="eventContainer" *ngFor="let artist of artists">
+    <div class="eventName">
+      <img height="125" width="125" src="{{ artist.picUrl }}" alt="{{ artist.name }}">
+      <div id="eventTourDetails">
+        <p class="eventArtist">{{ artist.name }}</p>
+        <p class="eventTour">{{ artist.tour }}</p>
+      </div>
+    </div>
+    <div class="eventDate">
+      <div id="dateContainer">
+        <div id="fullDateContainer">
+          <p id="fullDate">{{ artist.date }}</p>
+        </div>
+        <div>
+        <div id="dayNameContainer">
+          <p id="dayName">{{ getDayName(artist.date) }}</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="buyTickets">
+      <a href="#">
+        <fa-icon [icon]="ticket"></fa-icon>
+        BUY TICKETS
+      </a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
