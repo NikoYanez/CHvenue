@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB;EAClB,UAAU,EAAE,yGAAyG;EACrH,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;;AAE9B,wBAAwB;EACtB,gBAAgB,EAAE,kBAAkB;EACpC,cAAc,EAAE,IAAI;EACpB,MAAM,EAAE,IAAI",
+"sources": ["newsletter.component.sass"],
+"names": [],
+"file": "newsletter.component.css"
+}

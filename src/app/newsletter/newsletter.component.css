@@ -1,0 +1,12 @@
+.backgroundContainer {
+  background: linear-gradient(rgba(143, 33, 145, 0.5), rgba(143, 33, 145, 0.5)), url("https://i.imgur.com/pWRwCcO.jpg");
+  min-height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#newsletterTextContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-filter: none;
+  filter: none; }
+
+/*# sourceMappingURL=newsletter.component.css.map */
