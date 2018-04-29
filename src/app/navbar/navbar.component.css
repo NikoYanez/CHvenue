@@ -10,7 +10,8 @@
 
 .navbar-inverse {
   background-color: black;
-  border: none; }
+  border: none;
+  padding: 0.5rem 2rem; }
 
 .navbar-inverse .navbar-toggle {
   border: none; }
