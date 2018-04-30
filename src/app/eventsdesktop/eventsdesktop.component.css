@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald");
 #eventsTitle {
   text-align: left;
+  margin-left: 3rem;
   font-family: Oswald, sans-serif; }
 
 .middle {

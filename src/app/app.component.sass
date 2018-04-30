@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald')
 
-@media (min-width: 767px)
+@media (min-width: 1200px)
   .mobileNav
     display: none
   .desktopNav
     display: initial
+  .navbar-fixed-top
+    position: relative
+    top: auto
+  .navbar-collapse
+    max-height: none
+  body
+    margin: 0
 
-@media (max-width: 766px)
+@media (max-width: 1200px)
   .mobileNav
     display: initial
   .desktopNav
