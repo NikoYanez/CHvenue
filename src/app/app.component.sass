@@ -1,1 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald')
+
+@media (min-width: 767px)
+  .mobileNav
+    display: none
+  .desktopNav
+    display: initial
+
+@media (max-width: 766px)
+  .mobileNav
+    display: initial
+  .desktopNav
+    display: none
+
+@media (min-width: 1024px)
+  .mobileEvents
+    display: none
+  .desktopEvents
+    display: initial
+
+@media (max-width: 1023px)
+  .mobileEvents
+    display: initial
+  .desktopEvents
+    display: none
+
+@media (min-width: 1024px)
+  .desktopWrap
+    display: flex
+  .app-social
+    width: 50%
+  .app-directions
+    width: 50%

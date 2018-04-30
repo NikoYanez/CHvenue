@@ -1,0 +1,48 @@
+.directionsContainer {
+  background-color: white;
+  margin: 0 0;
+  border: 1px solid white;
+  padding: 1rem; }
+
+#directionsIntro {
+  border-bottom: 0.3rem solid black; }
+  #directionsIntro .getDirectionsHeader {
+    font-family: Oswald, sans-serif; }
+  #directionsIntro .getDirectionsBody {
+    color: #f700f3;
+    font-family: Merriweather, sans-serif;
+    font-style: italic;
+    font-size: 1.6rem; }
+
+.fullAddress {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: Oswald, sans-serif; }
+  .fullAddress p {
+    font-size: 1.8rem; }
+
+iframe {
+  width: 100%;
+  border-style: none;
+  height: 26rem; }
+
+.mapAddress {
+  padding: 2rem 2rem;
+  background-color: #e3e3e3; }
+
+@media (min-width: 1024px) {
+  .directionsContainer {
+    height: 100%; }
+
+  .fullAddress {
+    height: 5rem;
+    display: flex; }
+    .fullAddress p {
+      padding-left: 1rem; }
+
+  .mapAddress {
+    padding: 4.5rem 2rem; } }
+
+/*# sourceMappingURL=directions.component.css.map */
