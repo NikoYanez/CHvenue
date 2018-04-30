@@ -3,16 +3,14 @@
 </div>
 <div class="socialMediaContainer">
   <div class="allPostsContainer">
-    <div class="socialMediaPostContainer" *ngFor="let i of repeat">
+    <div class="socialMediaPostContainer" *ngFor="let artist of artists">
       <div class="socialMediaPost">
         <div class="socialPoster">
-          <fa-icon [icon]="twitter"></fa-icon>
-          <a href="#">@CHVENUE</a>
+          <fa-icon [icon]="instagram"></fa-icon>
+          <a href="#">@{{ artist.name }}</a>
           <p>
-            <span class="userProfile" href="#">@axs: </span><span class="userProfile" href="#">.@dylangardner23</span>
-            will be opening for 'The Walking Dead's' <span class="userProfile" href="#">@emmykinney</span> on her tour!
-            <span class="userProfile">bit.ly/picture</span>
-            <span class="userProfile">pic.twitter.com/bgdaseds</span>
+            <img class="ig-img" src="{{artist.picUrl}}" alt="{{ artist.name }}">
+            <span class="userProfile">{{ artist.caption }}</span>
           </p>
         </div>
       </div>

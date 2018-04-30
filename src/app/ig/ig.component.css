@@ -47,9 +47,14 @@
     padding-left: 1rem; }
 
 .userProfile {
-  color: #f700f3; }
+  color: #f700f3;
+  padding-top: 1rem; }
 
 .followUs {
   font-family: Oswald, sans-serif; }
 
-/*# sourceMappingURL=socialmedia.component.css.map */
+.ig-img {
+  max-width: 18rem;
+  min-height: 18rem; }
+
+/*# sourceMappingURL=ig.component.css.map */

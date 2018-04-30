@@ -13,10 +13,12 @@ import { ChlogoComponent } from './chlogo/chlogo.component';
 import { EventsComponent } from './events/events.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { SocialComponent } from './social/social.component';
+import { SocialmediaComponent } from './socialmedia/socialmedia.component';
+import { IgComponent } from './ig/ig.component';
+import { FbComponent } from './fb/fb.component';
 
 // Font Awesome Icons
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { SocialmediaComponent } from './socialmedia/socialmedia.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { SocialmediaComponent } from './socialmedia/socialmedia.component';
     NewsletterComponent,
     SocialComponent,
     SocialmediaComponent,
+    IgComponent,
+    FbComponent,
   ],
   imports: [
     BrowserModule,
