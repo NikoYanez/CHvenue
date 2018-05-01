@@ -36,6 +36,9 @@
   padding: 1rem 4rem;
   font-family: Oswald, sans-serif;
   font-size: 2rem; }
+  #getConnectedBtn:hover {
+    background-color: white;
+    color: black; }
 
 @media (min-width: 1024px) {
   #newsletterTextContainer {
