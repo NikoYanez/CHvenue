@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CollapseModule, BsDropdownModule } from 'ngx-bootstrap';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 // Components
 import { AppComponent } from './app.component';
@@ -18,7 +19,7 @@ import { IgComponent } from './ig/ig.component';
 import { FbComponent } from './fb/fb.component';
 import { DirectionsComponent } from './directions/directions.component';
 import { EventsdesktopComponent } from './eventsdesktop/eventsdesktop.component';
-import { NavbardesktopComponent } from './navbardesktop/navbardesktop.component';
+import { TestNavComponent } from './test-nav/test-nav.component';
 
 // Font Awesome Icons
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -37,7 +38,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FbComponent,
     DirectionsComponent,
     EventsdesktopComponent,
-    NavbardesktopComponent
+    TestNavComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +49,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TabsModule.forRoot(),
     RouterModule,
     TabsModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

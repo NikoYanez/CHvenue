@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald");
-@media (min-width: 1200px) {
+@media (min-width: 1035px) {
   .mobileNav {
     display: none; }
 
@@ -15,7 +15,7 @@
 
   body {
     margin: 0; } }
-@media (max-width: 1200px) {
+@media (max-width: 1035px) {
   .mobileNav {
     display: initial; }
 

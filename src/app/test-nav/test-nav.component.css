@@ -1,0 +1,94 @@
+* {
+  border-radius: 0; }
+
+.navbar-brand {
+  display: flex;
+  font-family: Lato, sans-serif;
+  min-width: 10rem;
+  background-color: grey;
+  color: white;
+  padding: 0;
+  overflow: hidden;
+  border: #000 1.5px solid;
+  text-shadow: 0 1px 1px black; }
+  .navbar-brand .completeTitle {
+    display: flex;
+    margin-top: -2.5rem; }
+    .navbar-brand .completeTitle #chTitle {
+      margin-left: 2rem;
+      font-weight: bold;
+      font-size: 3rem; }
+    .navbar-brand .completeTitle #venueTitle {
+      margin-right: 1rem;
+      margin-top: 0.5rem;
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 700; }
+
+.one {
+  background-color: #3a3a3a;
+  background-image: -webkit-linear-gradient(15deg, #2e2e2e 60%, #3a3a3a 50%);
+  padding: 5.5rem 2rem 2.5rem 1rem;
+  position: absolute;
+  top: -4rem;
+  left: 5rem;
+  border: none; }
+
+.navbar-inverse {
+  background-color: black; }
+
+.navbar-default {
+  background-color: white;
+  margin-bottom: 0; }
+  .navbar-default .menuOption a {
+    background-color: transparent;
+    color: #2e2e2e; }
+
+.socialMedia {
+  float: right; }
+
+.chSearch input {
+  background-color: #e1e1e1;
+  position: relative;
+  border-radius: 25px;
+  width: 29rem; }
+.chSearch button {
+  position: absolute;
+  top: 0.9rem;
+  right: 20rem;
+  border: none;
+  background: transparent; }
+
+.logIn {
+  background: #f700f3;
+  border: none;
+  padding: 1rem 6rem 1rem 6rem;
+  height: 5rem; }
+  .logIn a {
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-size: 1.7rem; }
+
+#socialMenuOptions {
+  font-size: 1.8rem; }
+
+.getConnectedTitle {
+  margin-top: 1.2rem;
+  margin-right: 1rem;
+  color: #f700f3;
+  font-family: Oswald, sans-serif; }
+
+#menuOptions {
+  float: right; }
+  #menuOptions .menuOption {
+    padding-left: 2rem;
+    font-family: Oswald, sans-serif; }
+    #menuOptions .menuOption a {
+      color: #fff; }
+      #menuOptions .menuOption a:hover {
+        color: rgba(247, 0, 243, 0.5); }
+  #menuOptions .active a {
+    background-color: rgba(247, 0, 243, 0.5);
+    color: #fff; }
+
+/*# sourceMappingURL=test-nav.component.css.map */

@@ -27,11 +27,12 @@ $CHPurple: #f700f3
     opacity: 1
 
 .text
-  background-color: $CHPurple
+  background-color: rgba(247, 0, 243, 0.8)
   color: white
   font-size: 16px
   padding: 1.6rem 3.2rem
   border-radius: 0.5rem
+  text-decoration: none
 
 .artistImg
   width: 100%
@@ -46,6 +47,7 @@ $CHPurple: #f700f3
 // Parent Div Styles
 #eventContainer
   margin-bottom: 5rem
+  text-align: center
   .eventName
     background-color: white
     padding: 0.8rem
@@ -59,7 +61,8 @@ $CHPurple: #f700f3
 
 // Event Name and Artist Name
 #eventTourDetails
-  margin: 0.3rem 2rem
+  display: block
+  margin: 0 auto
   .eventArtist
     font-family: Oswald, sans-serif
     color: $CHPurple
@@ -98,6 +101,7 @@ $CHPurple: #f700f3
   #fullDate
     padding-left: 2rem
     padding-top: 0.5rem
+    font-family: Oswald, sans-serif
 
 #dayNameContainer::after
   content: ''
