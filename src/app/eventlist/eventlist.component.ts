@@ -1,22 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { faTicketAlt } from '@fortawesome/free-solid-svg-icons/faTicketAlt';
 import { ARTISTS } from '../artists';
+import { faTicketAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-events',
-  templateUrl: './events.component.html',
-  styleUrls: ['./events.component.sass']
+  selector: 'app-eventlist',
+  templateUrl: './eventlist.component.html',
+  styleUrls: ['./eventlist.component.sass']
 })
-
-export class EventsComponent implements OnInit {
+export class EventlistComponent implements OnInit {
   ticket = faTicketAlt;
   days = [];
   d = new Date();
   dayName = '';
 
   artistList = ARTISTS;
-
   artists = this.artistList;
+
   constructor() { }
 
   ngOnInit() {
