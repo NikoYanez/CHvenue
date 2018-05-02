@@ -40,11 +40,12 @@
   margin-left: 2rem;
   margin-top: -2rem;
   padding: 1rem 1rem 0 1rem; }
+  .socialMediaDetails a {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    color: white; }
   .socialMediaDetails p {
     font-size: 1.2rem; }
-  .socialMediaDetails fa-icon {
-    font-size: 1.2rem;
-    padding-left: 1rem; }
 
 .userProfile {
   color: #f700f3; }
