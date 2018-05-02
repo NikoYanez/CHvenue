@@ -5,7 +5,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CollapseModule, BsDropdownModule } from 'ngx-bootstrap';
 import { TabsModule } from 'ngx-bootstrap/tabs';
-import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 // Components
 import { AppComponent } from './app.component';
@@ -53,7 +52,6 @@ import { EventlistComponent } from './eventlist/eventlist.component';
     TabsModule.forRoot(),
     RouterModule,
     TabsModule,
-    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -29,9 +29,4 @@ export class TestNavComponent implements OnInit {
     artistFilter = this.artistFilterValue;
   }
 
-  returnArtistFilter() {
-    console.log(artistFilter);
-    return this.artistFilterValue;
-  }
-
 }
