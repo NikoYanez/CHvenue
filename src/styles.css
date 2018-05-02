@@ -18,6 +18,24 @@
   .nav-tabs > li > a:hover {
     background-color: rgba(247, 0, 243, 0.5); }
 
+.titleContainer .navTabs ul {
+  float: right;
+  margin: -4rem 5rem 1rem 1rem;
+  padding-bottom: 0; }
+  .titleContainer .navTabs ul li {
+    padding-left: 2rem;
+    font-size: 1.5rem; }
+    .titleContainer .navTabs ul li a {
+      color: black; }
+      .titleContainer .navTabs ul li a:hover {
+        background-color: rgba(247, 0, 243, 0.5);
+        max-height: 4rem; }
+  .titleContainer .navTabs ul .active a {
+    color: #f700f3;
+    padding-bottom: 1rem;
+    max-height: 4rem;
+    background-color: white; }
+
 tab.tabStyle.active.tab-pane {
   width: 100% !important; }
 

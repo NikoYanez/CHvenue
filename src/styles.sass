@@ -1,3 +1,4 @@
+$CHPurple: #f700f3
 /* You can add global styles to this file, and also import other style files */
 .container-fluid
   padding-left: 0
@@ -17,6 +18,25 @@
   border-radius: 0
   &:hover
     background-color: rgba(247, 0, 243, 0.5)
+
+.titleContainer .navTabs ul
+  float: right
+  margin: -4rem 5rem 1rem 1rem
+  padding-bottom: 0
+  li
+    padding-left: 2rem
+    font-size: 1.5rem
+    a
+      color: black
+      &:hover
+        background-color: rgba(247, 0, 243, 0.5)
+        max-height: 4rem
+  .active
+    a
+      color: $CHPurple
+      padding-bottom: 1rem
+      max-height: 4rem
+      background-color: white
 
 tab.tabStyle.active.tab-pane
   width: 100% !important

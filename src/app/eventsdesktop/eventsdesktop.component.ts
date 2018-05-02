@@ -1,7 +1,6 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { ARTISTS } from '../artists';
-import { artistFilter } from '../test-nav/test-nav.component';
-import {TestNavComponent} from '../test-nav/test-nav.component';
+import { Component, OnInit } from '@angular/core';
+import {faTh} from '@fortawesome/free-solid-svg-icons';
+import {faBars} from '@fortawesome/free-solid-svg-icons/faBars';
 
 @Component({
   selector: 'app-eventsdesktop',
@@ -9,20 +8,11 @@ import {TestNavComponent} from '../test-nav/test-nav.component';
   styleUrls: ['./eventsdesktop.component.sass']
 })
 export class EventsdesktopComponent implements OnInit {
-  days = [];
-  d = new Date();
-  dayName = '';
-  artists = ARTISTS;
+  list = faBars;
+  grid = faTh;
   constructor() { }
 
   ngOnInit() {
-  }
-
-  getDayName(date) {
-    this.days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    this.d = new Date(date);
-    this.dayName = this.days[this.d.getDay()];
-    return this.dayName;
   }
 
 }

@@ -1,31 +1,16 @@
-<h2 id="eventsTitle">UPCOMING EVENTS</h2>
-<hr>
-
-<div class="container-fluid">
-  <div id="eventContainer"  class="col-xs-12 col-sm-6 col-md-6 col-lg-4" *ngFor="let artist of artists">
-    <div class="imgContainer">
-      <img class="artistImg" src="{{ artist.picUrl }}" alt="{{ artist.name }}">
-      <div class="middle">
-        <a href="#" class="text">Buy Tickets</a>
-      </div>
-    </div>
-    <div class="eventDate">
-      <div id="dateContainer">
-        <div id="fullDateContainer">
-          <p id="fullDate">{{ artist.date }}</p>
-        </div>
-        <div>
-          <div id="dayNameContainer">
-            <p id="dayName">{{ getDayName(artist.date) }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="eventName">
-      <div id="eventTourDetails">
-        <p class="eventArtist">{{ artist.name }}</p>
-        <p class="eventTour">{{ artist.tour }}</p>
-      </div>
-    </div>
-  </div>
+<div class="titleContainer">
+  <h2 id="eventsTitle">UPCOMING EVENTS</h2>
+  <tabset class="nav nav-tabs navTabs">
+    <tab customClass="desktopEventsTabs">
+      <ng-template tabHeading>
+        <p><fa-icon [icon]="grid"></fa-icon></p>
+      </ng-template>
+      <app-eventgrid></app-eventgrid>
+    </tab>
+    <tab customClass="desktopEventsTabs">
+      <ng-template tabHeading>
+        <fa-icon [icon]="list"></fa-icon>
+      </ng-template>
+    </tab>
+  </tabset>
 </div>

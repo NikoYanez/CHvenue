@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Oswald')
+$CHPurple: #f700f3
+
+// Upcoming Events Styles
+#eventsTitle
+  text-align: left
+  margin-left: 3rem
+  font-family: Oswald, sans-serif
+
+.middle
+  transition: .5s ease
+  opacity: 0
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  text-align: center
+
+.imgContainer
+  width: 100%
+  position: relative
+  &:hover .artistImg
+    color: rgb(247, 0, 243)
+    opacity: 0.3
+  &:hover .middle
+    opacity: 1
+
+.text
+  background-color: rgba(247, 0, 243, 0.8)
+  color: white
+  font-size: 16px
+  padding: 1.6rem 3.2rem
+  border-radius: 0.5rem
+  text-decoration: none
+
+.artistImg
+  width: 100%
+  min-height: 35rem
+  max-height: 35rem
+  opacity: 1
+  display: block
+  height: auto
+  transition: .5s ease
+  backface-visibility: hidden
+
+// Parent Div Styles
+#eventContainer
+  margin-bottom: 5rem
+  text-align: center
+  .eventName
+    background-color: white
+    padding: 0.8rem
+    display: flex
+    margin-top: -1rem
+  .eventDate
+    background-color: black
+    display: inline-block
+    width: 100%
+    padding: 1rem 0 0 1rem
+
+// Event Name and Artist Name
+#eventTourDetails
+  display: block
+  margin: 0 auto
+  .eventArtist
+    font-family: Oswald, sans-serif
+    color: $CHPurple
+    font-size: 3rem
+  .eventTour
+    font-family: Lato, sans-serif
+    font-style: oblique
+    font-size: 1.8rem
+
+.buyTickets
+  background-color: $CHPurple
+  color: white
+  margin-top: -5px
+  padding: 1.2rem 0
+  text-align: center
+  a
+    color: white
+    font-family: Oswald, sans-serif
+
+// Event Date Details
+.eventDate
+  #fullDateContainer
+    float: left
+    color: $CHPurple
+  #dayNameContainer
+    padding: 1rem 3.6rem 0 3rem
+    font-family: Oswald, sans-serif
+    color: $CHPurple
+    position: relative
+    float: right
+    min-width: 10.3rem
+    max-width: 10.3rem
+    bottom: 1.5rem
+    border: none
+    background-color: #3a3a3a
+  #fullDate
+    padding-left: 2rem
+    padding-top: 0.5rem
+    font-family: Oswald, sans-serif
+
+#dayNameContainer::after
+  content: ''
+  position: absolute
+  top: 0
+  right: 10.2rem
+  border-right: 15px solid #3a3a3a
+  border-bottom: 40px solid transparent
+  width: 0
+
+hr
+  border-top: 2px solid #000
+  width: 98%
+  margin-left: 2rem

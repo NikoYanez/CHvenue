@@ -23,6 +23,7 @@ import { TestNavComponent } from './test-nav/test-nav.component';
 
 // Font Awesome Icons
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EventgridComponent } from './eventgrid/eventgrid.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FbComponent,
     DirectionsComponent,
     EventsdesktopComponent,
-    TestNavComponent
+    TestNavComponent,
+    EventgridComponent
   ],
   imports: [
     BrowserModule,
